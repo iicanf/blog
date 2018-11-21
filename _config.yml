@@ -28,7 +28,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+include: _redirects
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -81,3 +82,5 @@ theme: indigo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
